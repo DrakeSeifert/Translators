@@ -1,0 +1,13 @@
+digraph G {
+        0 [label="Root"];
+        0 -> 4
+        4 [label="Assignment"];
+        0 -> 4
+        2 [label="Identifier"];
+        4 -> 2
+        3 [label="Node"];
+        4 -> 3
+        1 [label="Boolean"];
+        3 -> 1
+}
+
